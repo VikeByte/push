@@ -33,7 +33,7 @@ img {
     padding: 20px 80px 80px 80px;
     box-sizing: border-box;
     width: 1500px;
-    height: 770px; 
+    height: 900px; 
 }
 
 .header {
@@ -124,6 +124,108 @@ img {
 }
 
 .players-topleft-sec4 {
+    border: 1px solid white;
+    padding: 3px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.column-topright-sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: right;
+    margin-top: -322px;
+}
+
+.players-topright-sec1 {
+    border: 1px solid white;
+    padding: 3px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.shared-column-topright-sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-left: -150px;
+    margin-top: -320px;
+    float: right;
+}
+
+.shared-column-topright-sec2-upper,
+.shared-column-topright-sec2-lower {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.players-topright-sec2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 1px 2px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.player-icon-sec2-topright {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.column-topright-sec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: right;
+    margin-right: 300px;
+    margin-top: -199px;
+}
+
+.players-topright-sec3 {
+    border: 1px solid white;
+    padding: 3px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.column-topright-sec4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: right;
+    margin-right: 500px;
+    margin-top: -25px;
+}
+
+.players-topright-sec4 {
     border: 1px solid white;
     padding: 3px;
     width: 100px;
