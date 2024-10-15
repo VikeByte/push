@@ -1,8 +1,11 @@
 
+
+
 .Tittel {
     position: relative;
-    left: 0px;
+    left: 350px;
     font-size: 45px;
+    width: 500px;
 }
 
 .Spill1 {
@@ -11,7 +14,7 @@
     left: 40px;
     width: 550px;
     height: 225px;
-    top: 100px;
+    top: 10px;
     border-style: solid;
     margin: 10px;
     display: inline-block;
@@ -53,8 +56,8 @@
     display: inline-block;
     z-index: -1;    
 }
-
 #Spill_navn1 {
+    position: relative;
     display: flex;
     flex-direction: column;  /* Stack words vertically */
     justify-content: center; /* Center vertically */
@@ -62,6 +65,7 @@
     height: 100%;            /* Ensures text takes up full height of the box */
     text-align: center;
     z-index: 1;
-    margin-left: -1000px;
-    top: -100px;
+    margin-left: -900px;
+    top: -200px;
 }
+
