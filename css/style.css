@@ -1,5 +1,9 @@
+* {
+    background-color: blue;
+}
+
 .Tittel {
-    position: absolute;
+    position: relative;
     left: 400px;
     font-size: 45px;
 }
@@ -7,9 +11,9 @@
 .Spill1 {
     position: absolute;
     background-color: red;
-    left: 50px;
-    width: 600px;
-    height: 300px;
+    left: 40px;
+    width: 550px;
+    height: 225px;
     top: 100px;
     border-style: solid;
 }
@@ -17,27 +21,33 @@
 .Spill2 {
     position: absolute;
     background-color: red;
-    left: 50px;
-    width: 600px;
-    height: 200px;
-    top: 400px;
+    left: 40px;
+    width: 550px;
+    height: 225px;
+    top: 350px;
     border-style: solid;
 }
 .Spill3 {
     position: absolute;
     background-color: red;
-    left: 800px;
-    width: 600px;
-    height: 200px;
+    left: 650px;
+    width: 550px;
+    height: 225px;
     top: 100px;
     border-style: solid;
 }
 .Spill4 {
     position: absolute;
     background-color: red;
-    left: 800px;
-    width: 600px;
-    height: 200px;
-    top: 400px;
+    left: 650px;
+    width: 550px;
+    height: 225px;
+    top: 350px;
     border-style: solid;
+}
+
+.Spill_navn1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
