@@ -1,5 +1,6 @@
-
-
+body {
+    background-color: navy;
+}
 
 .Tittel {
     position: relative;
@@ -7,7 +8,6 @@
     font-size: 45px;
     width: 500px;
 }
-
 .Spill1 {
     position: relative;
     background-color: red;
@@ -16,56 +16,61 @@
     height: 225px;
     top: 10px;
     border-style: solid;
-    margin: 10px;
-    display: inline-block;
-    z-index: -1;
+    display: flex;
 }
-.Spill2 {
-    position: relative;
-    background-color: red;
-    left: 40px;
-    width: 550px;
-    height: 225px;
-    top: -100px;
-    border-style: solid;
-    margin: 10px;
-    display: inline-block;
-    z-index: -1;
-}
-.Spill3 {
-    position: relative;
-    background-color: red;
-    left: 50px;
-    width: 550px;
-    height: 225px;
-    top: -340px;
-    border-style: solid;
-    margin: 10px;
-    display: inline-block;
-    z-index: -1;
-}
-.Spill4 {
-    position: relative;
-    background-color: red;
-    left: 40px;
-    width: 550px;
-    height: 225px;
-    top: 100px;
-    border-style: solid;
-    margin: 10px;
-    display: inline-block;
-    z-index: -1;    
-}
+
 #Spill_navn1 {
-    position: relative;
     display: flex;
     flex-direction: column;  /* Stack words vertically */
     justify-content: center; /* Center vertically */
     align-items: center;     /* Center horizontally */
     height: 100%;            /* Ensures text takes up full height of the box */
     text-align: center;
-    z-index: 1;
-    margin-left: -900px;
-    top: -200px;
 }
+.Spill1_tittel {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    left: -400px;
+    top: -280px;
 
+}
+ /* .Name-container {
+    height: 100px;
+    background-color: blue;
+    top: 100px;
+} */
+.names_row1 {
+    position: relative;
+    margin-top: -285px;
+    margin-left: -1000px; 
+    display: flex; 
+    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.names_row2 {
+    position: relative;
+    margin-top: -225px;
+    margin-left: -715px; 
+    display: flex; 
+    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.names_row3 {
+    position: relative;
+    margin-top: -200px;
+    margin-left: -425px; 
+    display: flex; 
+    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
