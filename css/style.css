@@ -1,5 +1,5 @@
 body {
-    background-color: navy;
+    background-color: rgb(88, 113, 113);
 }
 
 .Tittel {
@@ -7,70 +7,80 @@ body {
     left: 350px;
     font-size: 45px;
     width: 500px;
+    color: white;
 }
-.Spill1 {
+.page {
+    display: none;
+}
+.page.active {
+    display: block;
+}
+/*
+.slideshow {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: -100;
+} */
+
+.Spill_tittel {
     position: relative;
-    background-color: red;
-    left: 40px;
-    width: 550px;
-    height: 225px;
-    top: 10px;
+    background-color: rgb(0, 72, 17);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    left: 50px;
+    margin-top: -270px;
+    color: white;
+    border-style: solid;
+    width: 300px;
+    height: 75px;
+}
+.Spill {
+    background-color: rgb(0, 72, 17);
+    margin-left: 40px;
+    width: 1000px;
+    height: 250px;
+    margin-top: 50px;
     border-style: solid;
     display: flex;
 }
-
-#Spill_navn1 {
-    display: flex;
-    flex-direction: column;  /* Stack words vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center;     /* Center horizontally */
-    height: 100%;            /* Ensures text takes up full height of the box */
-    text-align: center;
+.names_row {
+    margin-top: -0px;
+    margin-left: 45px; 
+    display: flex; 
+    font-size: 30px;
+    width: 1000px;
+    color: white;
 }
-.Spill1_tittel {
+.Spill_tittel2 {
     position: relative;
     font-size: 15px;
     display: flex;
     justify-content: center;
     left: -400px;
-    top: -280px;
-
+    top: -100px;
+    color: white;
 }
- /* .Name-container {
-    height: 100px;
-    background-color: blue;
-    top: 100px;
-} */
-.names_row1 {
-    position: relative;
-    margin-top: -285px;
-    margin-left: -1000px; 
-    display: flex; 
-    justify-content: center;    
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    text-align: center;
+.Spill2 {
+    background-color: rgb(72, 0, 0);
+    margin-left: 40px;
+    width: 1000px;
+    height: 250px;
+    margin-top: 50px;
+    border-style: solid;
+    display: flex;
 }
 .names_row2 {
-    position: relative;
-    margin-top: -225px;
-    margin-left: -715px; 
+    margin-top: -120px;
+    margin-left: 45px; 
     display: flex; 
-    justify-content: center;    
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    text-align: center;
+    font-size: 30px;
+    width: 1000px;
+    color: white;
 }
-.names_row3 {
-    position: relative;
-    margin-top: -200px;
-    margin-left: -425px; 
-    display: flex; 
-    justify-content: center;    
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-}
+
