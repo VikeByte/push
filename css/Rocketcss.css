@@ -1,33 +1,42 @@
 body {
     background-color: rgb(88, 113, 113);
-    background-image: url('../img/FC25-logo.webp'); /* Set your background image here */
-    background-size: 100% auto; /* Cover the entire background */
+    background-image: url('../img/Rocket_League_coverart.jpg'); /* Set your background image here */
+    background-size: 40% auto; /* Cover the entire background */
     background-position: 50% 0px; /* Center the image */
     background-repeat: no-repeat; /* Don't repeat the image */
+    background-position-x: auto;
+    background-position-y: 70px;
     margin: 0px;
     padding: 0;
     background-attachment: fixed;
 }
+.background_img {
+    display: flex;
+    width: 100%;
+    background-image: url('../img/Rocket_League_coverart.jpg');
+}
 .Tittel {
-    margin-left: 350px;
+    margin-left: 0px;
     font-size: 45px;
     width: 500px;
-    color: white;
-    margin-top: 50px; 
+    color: rgb(0, 0, 0);
+    background-color: blue;
+    border-style: solid;
+    justify-content: left;
+    display: flex;
 }
 .Spill_tittel {
     background-color: rgb(0, 72, 17);
     font-size: 15px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     color: white;
     border-style: solid;
     border-color: black;
-    width: 1265px;
+    width: 330px;
     height: 75px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
-
 #player1, #player2, #player3, #player4, #player5, #player6, #player7, #player8, #player9,
 #player10 {
     background-color: green;
@@ -40,15 +49,15 @@ body {
     height: 50px;
     margin: 0px;
     color: white;
-
 }
 .Position {
     position: relative;
     left: 0px;
-    top: 50px;
+    top: -0px;
 }
 .Position2 {
     position: relative;
     left: 850px;
-    top: -220px;
+    top: -270px;
+    opacity: 80%;
 }
